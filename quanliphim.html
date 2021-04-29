@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Danh Sách Phim Hoạt Hình</title>
+    <style>
+
+        img {
+            width: 90px;
+            height: 90px;
+        }
+
+        body {
+            background-image: url("https://hinhanhdep.net/wp-content/uploads/2017/11/hinh-anh-cong-chua-elsa-dep-25.jpg");
+
+        }
+    </style>
+
+
+
+
+</head>
+<body >
+<audio   controls autoplay >
+    <source src="son-tung.mp3" type="audio/mpeg">
+<!--   <embed src="Chi%20La%20Khong%20Cung%20Nhau.mp3" autostart="true" loop="true" hidden="true">-->
+</audio>
+<form id="add" action="" style="display: none">
+    <table border="1"
+           style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToTWg100vlimw_hZiaAAZYMaPB4C02IT9fYA&usqp=CAU)">
+        <tr>
+            <td>id:</td>
+            <td colspan="4"><input type="text" id="a"></td>
+        </tr>
+        <tr>
+            <td>image:</td>
+            <td colspan="4"><input type="text" id="b"></td>
+        </tr>
+        <tr>
+            <td>name:</td>
+            <td colspan="4"><input type="text" id="c"></td>
+        </tr>
+
+        <tr>
+            <td>date:</td>
+            <td colspan="4"><input type="text" id="d"></td>
+        </tr>
+        <tr>
+            <td>time:</td>
+            <td colspan="4"><input type="text" id="e"></td>
+        </tr>
+        <tr>
+            <td>link:</td>
+            <td colspan="4"><input type="text" id="g"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="up" onclick="them()"></td>
+        </tr>
+    </table>
+</form>
+<form id="adc" action="" style="display: none">-->
+
+    <table border="1" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnKRSnz5PcMV6P1s51z6i7IIRw689xsCCx6A&usqp=CAU)">
+    <tr>
+        <td>id:</td>
+        <td><input type="text" id="1"></td>
+    </tr>
+    <tr>
+        <td>image:</td>
+        <td><input type="text" id="2"></td>
+    </tr>
+    <tr>
+        <td>name:</td>
+        <td><input type="text" id="3"></td>
+    </tr>
+
+    <tr>
+        <td>date:</td>
+        <td><input type="text" id="4"></td>
+    </tr>
+    <tr>
+        <td>time:</td>
+        <td><input type="text" id="5"></td>
+    </tr>
+    <tr>
+        <td>link:</td>
+        <td><input type="text" id="6"></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="save" onclick="updateMovie()"></td>
+    </tr>
+    </table>
+</form>
+
+<table id="list" border="2" width="70%" >
+<h2 style="color: orangered">Danh Sách Phim Mới Sắp Chiếu</h2>
+    <button onclick="addMovie()" >addMovie</button>
+</table>
+<script>
+</script>
+<script src="quan_li_phim.js"></script>
+</body>
+</html>
